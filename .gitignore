@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.Python
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Test, lint, and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Data and model artifacts (keep small, documented samples only when intended)
+data/raw/
+data/processed/
+*.parquet
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.model
+*.joblib
+*.pkl
+*.pickle
+mlruns/
+wandb/
+lightning_logs/
+outputs/
+artifacts/
+
+# Secrets and local configuration
+.secrets/
+*.pem
+*.key
+credentials.json
